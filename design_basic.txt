@@ -1,0 +1,38 @@
+**'MENU:**
+    Welcome to Score on the go, the best exam grader there is!"
+    Would you like to start grading?
+        > Y
+        > N (Exit wkwk)
+
+
+> Y
+**Input**
+    Mata Pelajaran:
+    Kelas: 
+    Mapel: 
+    Jumlah soal: 
+    Answer Key: 
+
+print("Upload foto lembar ujian yang ingin dinilai)
+
+**--- PROSES PENILAIAN ---**
+    Input
+        Folder yang berisi lembar jawaban 1 kelas
+        PROGRAM 
+            for x in folder, loop
+
+        -dengan OCR, mengscan [Nama, jawaban pilgan jawaban essay]
+        - hasil OCR menjadi VARIABLE
+        - VARIABLE jawaban pilgan dicocokkan dengan answer key
+        -Nilai = BENAR * 2,5
+        -OCR menambahkan {NILAI} di atas ujung kanan lbr jawaban
+        -save
+        
+**--- PROSES EXCEL ---**
+Buat list NAMA: "NILAI"
+Susun list nama secara alfabet.
+Save list terurut di excel
+
+print(f"Berikut adalah nilai {MAPEL} kelas {KELAS}")
+print(daftar_nilai())
+
