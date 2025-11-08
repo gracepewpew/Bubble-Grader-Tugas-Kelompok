@@ -1,0 +1,112 @@
+classDiagram
+    direction LR
+
+    class ExamGraderApp {
+        +run()
+    }
+
+    class UserInterface {
+        +get_exam_details() : ExamConfig
+        +get_root_directory() : string
+        +prompt_for_essay_grade(image_snippet) : bool
+        +display_progress(message: string)
+    }
+
+    class FileManager {
+        +find_answer_sheets(directory: string) : List<string>
+        +save_graded_sheet(image, student: StudentResult, output_dir: string)
+        +create_output_dirs(base_path: string, class_name: string) : string
+    }
+
+    class ImageProcessor {
+        -ocr_engine: any
+        +extract_student_info(image) : dict
+        +identify_and_crop_sections(image) : Dict<SectionType, image_roi>
+    }
+    
+    class ImageAnnotator {
+      +add_score_to_image(image, score: float) : image
+    }
+
+    class Grader {
+        -grading_types: Dict<SectionType, IGradingType>
+        +grade_sheet(sheet_data: dict, answer_key: AnswerKey) : float
+    }
+
+    class AnswerKey {
+      +load_from_file(path: string)
+      +get_section_key(section_id: string) : dict
+    }
+    
+    class StudentResult {
+      -name: string
+      -number: string
+      -class_name: string
+      -score: float
+      -graded_image_path: string
+    }
+
+    class ReportManager {
+        -generators: List<IReportGenerator>
+        +generate_all_reports(results: List<StudentResult>, output_dir: string)
+    }
+
+    class IGradingType {
+        <<Interface>>
+        +grade(section_image, section_key) : int
+    }
+
+    class MCQGradingType {
+        +grade(section_image, section_key) : int
+    }
+
+    class TrueFalseGradingType {
+        +grade(section_image, section_key) : int
+    }
+
+    class ShortAnswerGradingType {
+        +grade(section_image, section_key) : int
+    }
+
+    class EssayGradingType {
+        -ui: UserInterface
+        +grade(section_image, section_key) : int
+    }
+
+    class IReportGenerator {
+        <<Interface>>
+        +generate(results: List<StudentResult>, output_path: string)
+    }
+
+    class ExcelReportGenerator {
+        +generate(results: List<StudentResult>, output_path: string)
+    }
+
+    class PdfReportGenerator {
+        +generate(results: List<StudentResult>, output_path: string)
+    }
+
+    ExamGraderApp o-- "1" UserInterface : uses
+    ExamGraderApp o-- "1" FileManager : uses
+    ExamGraderApp o-- "1" ImageProcessor : uses
+    ExamGraderApp o-- "1" ImageAnnotator : uses
+    ExamGraderApp o-- "1" Grader : uses
+    ExamGraderApp o-- "1" ReportManager : uses
+    ExamGraderApp ..> AnswerKey : uses
+    ExamGraderApp ..> StudentResult : creates
+
+    Grader o-- "1..*" IGradingType : has types
+    IGradingType <|-- MCQGradingType
+    IGradingType <|-- TrueFalseGradingType
+    IGradingType <|-- ShortAnswerGradingType
+    IGradingType <|-- EssayGradingType
+
+    EssayGradingType ..> UserInterface : needs for manual input
+
+    ReportManager o-- "1..*" IReportGenerator : has generators
+    IReportGenerator <|-- ExcelReportGenerator
+    IReportGenerator <|-- PdfReportGenerator
+
+    note for ImageProcessor "Detects student info and section markers. Crops the image into processable chunks for the Grader."
+    note for Grader "Delegates grading of each section to a specific type object. Cocok dgn Open/Closed Principle."
+    note for EssayGradingType "A special grading type that needs the UI to ask the teacher for input, demonstrating Dependency Inversion."
