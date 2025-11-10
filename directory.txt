@@ -10,7 +10,7 @@ Bubble-Grader-Tugas-Kelompok/
 │   │   └── grading_types.py
 │   ├── processing/
 │   │   ├── __init__.py
-│   │   └── mock_image_processor.py  # We'll use a mock for now
+│   │   └── mock_image_processor.py  # We'll use a mock for now (mock krn integrasi OCRnya untuk nanti saja ketika UAS :") Masih design kertas ujiannya)
 │   ├── reporting/
 │   │   ├── __init__.py
 │   │   ├── report_manager.py
