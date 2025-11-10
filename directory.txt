@@ -1,0 +1,24 @@
+Bubble-Grader-Tugas-Kelompok/
+│
+├── exam_grader/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── models.py
+│   ├── grading/
+│   │   ├── __init__.py
+│   │   ├── grader.py
+│   │   └── grading_types.py
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   └── mock_image_processor.py  # We'll use a mock for now
+│   ├── reporting/
+│   │   ├── __init__.py
+│   │   ├── report_manager.py
+│   │   └── generators.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── file_manager.py
+│       └── ui.py
+│
+├── main.py
+└── requirements.txt
