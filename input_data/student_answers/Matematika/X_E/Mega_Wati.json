@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Mega Wati",
+    "class": "X E"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "C",
+      "5": "C",
+      "6": "A",
+      "7": "C",
+      "8": "A",
+      "9": "C",
+      "10": "B"
+    },
+    "short_answer_section": {
+      "1": "jawaban ini salah",
+      "2": "jawaban ini salah",
+      "3": "saya tidak tahu",
+      "4": "jawaban ini salah",
+      "5": "jawaban ini salah"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

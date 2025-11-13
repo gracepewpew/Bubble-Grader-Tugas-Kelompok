@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Wawan Kusuma",
+    "class": "XI B MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "C",
+      "2": "C",
+      "3": "D",
+      "4": "A",
+      "5": "B",
+      "6": "A",
+      "7": "A",
+      "8": "B",
+      "9": "D",
+      "10": "A"
+    },
+    "short_answer_section": {
+      "1": "saya tidak tahu",
+      "2": "jawaban ini salah",
+      "3": "mungkin ini jawabannya",
+      "4": "mungkin ini jawabannya",
+      "5": "jawaban ini salah"
+    },
+    "essay_section": {
+      "1": "Pesan moral dari cerita ini adalah pentingnya persahabatan.",
+      "2": "Pesan moral dari cerita ini adalah pentingnya persahabatan."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Grace Putri Wijaya",
+    "class": "XII A MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "A", 
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "B",
+      "6": "C",
+      "7": "B",
+      "8": "B",
+      "9": "B",
+      "10": "D"
+    },
+    "short_answer_section": {
+      "1": "rantai makanan",
+      "2": "DNA",
+      "3": "DNA",
+      "4": "ekosistem",
+      "5": "klorofil"
+    },
+    "essay_section": {
+      "1": "Mitokondria adalah powerhouse sel.",
+      "2": "Fotosintesis itu adalah proses dimana tanaman menyerap cahaya melalui stomata untuk konversi jadi energi."
+    }
+  }
+}

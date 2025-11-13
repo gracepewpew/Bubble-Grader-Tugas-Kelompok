@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Farel Akbar",
+    "class": "XII B MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "A",
+      "3": "D",
+      "4": "B",
+      "5": "B",
+      "6": "A",
+      "7": "D",
+      "8": "D",
+      "9": "D",
+      "10": "B"
+    },
+    "short_answer_section": {
+      "1": "mungkin ini jawabannya",
+      "2": "sesuai dengan buku teks",
+      "3": "sesuai dengan buku teks",
+      "4": "jawaban ini salah",
+      "5": "jawaban ini benar"
+    },
+    "essay_section": {
+      "1": "Pesan moral dari cerita ini adalah pentingnya persahabatan.",
+      "2": "Pesan moral dari cerita ini adalah pentingnya persahabatan."
+    }
+  }
+}

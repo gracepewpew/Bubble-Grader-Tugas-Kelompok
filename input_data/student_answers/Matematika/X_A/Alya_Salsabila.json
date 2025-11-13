@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Alya Salsabila",
+    "class": "X A"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "A",
+      "3": "C",
+      "4": "B",
+      "5": "A",
+      "6": "A",
+      "7": "C",
+      "8": "A",
+      "9": "A",
+      "10": "C"
+    },
+    "short_answer_section": {
+      "1": "mungkin ini jawabannya",
+      "2": "mungkin ini jawabannya",
+      "3": "jawaban ini salah",
+      "4": "jawaban ini salah",
+      "5": "sesuai dengan buku teks"
+    },
+    "essay_section": {
+      "1": "Menurut pendapat saya, karakter utama menunjukkan keberanian.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

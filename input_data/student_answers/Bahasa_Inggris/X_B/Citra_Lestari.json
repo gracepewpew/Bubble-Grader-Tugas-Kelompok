@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Citra Lestari",
+    "class": "X B"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "B",
+      "3": "C",
+      "4": "A",
+      "5": "D",
+      "6": "D",
+      "7": "A",
+      "8": "A",
+      "9": "D",
+      "10": "C"
+    },
+    "short_answer_section": {
+      "1": "mungkin ini jawabannya",
+      "2": "sesuai dengan buku teks",
+      "3": "saya tidak tahu",
+      "4": "jawaban ini salah",
+      "5": "jawaban ini benar"
+    },
+    "essay_section": {
+      "1": "Menurut pendapat saya, karakter utama menunjukkan keberanian.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Santi Dewi",
+    "class": "XI A MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "A",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "B",
+      "6": "C",
+      "7": "C",
+      "8": "B",
+      "9": "C",
+      "10": "A"
+    },
+    "short_answer_section": {
+      "1": "sesuai dengan buku teks",
+      "2": "jawaban ini benar",
+      "3": "jawaban ini salah",
+      "4": "saya tidak tahu",
+      "5": "jawaban ini salah"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Citra Lestari",
+    "class": "X B"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "B",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "A",
+      "6": "D",
+      "7": "B",
+      "8": "C",
+      "9": "C",
+      "10": "C"
+    },
+    "short_answer_section": {
+      "1": "jawaban ini salah",
+      "2": "sesuai dengan buku teks",
+      "3": "jawaban ini salah",
+      "4": "mungkin ini jawabannya",
+      "5": "mungkin ini jawabannya"
+    },
+    "essay_section": {
+      "1": "Pesan moral dari cerita ini adalah pentingnya persahabatan.",
+      "2": "Pesan moral dari cerita ini adalah pentingnya persahabatan."
+    }
+  }
+}
