@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Vina Rosdiana",
+    "class": "XI B MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "A",
+      "3": "C",
+      "4": "A",
+      "5": "D",
+      "6": "D",
+      "7": "D",
+      "8": "B",
+      "9": "A",
+      "10": "C"
+    },
+    "short_answer_section": {
+      "1": "jawaban ini benar",
+      "2": "saya tidak tahu",
+      "3": "mungkin ini jawabannya",
+      "4": "jawaban ini salah",
+      "5": "sesuai dengan buku teks"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Saya setuju dengan pernyataan tersebut karena data mendukung."
+    }
+  }
+}

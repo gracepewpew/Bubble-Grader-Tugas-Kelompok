@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Alya Salsabila",
+    "class": "X A"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "C",
+      "2": "A",
+      "3": "A",
+      "4": "C",
+      "5": "D",
+      "6": "A",
+      "7": "D",
+      "8": "C",
+      "9": "C",
+      "10": "A"
+    },
+    "short_answer_section": {
+      "1": "sesuai dengan buku teks",
+      "2": "jawaban ini benar",
+      "3": "jawaban ini benar",
+      "4": "saya tidak tahu",
+      "5": "jawaban ini salah"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "subject": "Bahasa Inggris",
+  "sections": {
+    "mcq_section": {
+      "type": "mcq",
+      "answers": {
+        "1": {
+          "answer": "D",
+          "points": 5
+        },
+        "2": {
+          "answer": "B",
+          "points": 5
+        },
+        "3": {
+          "answer": "A",
+          "points": 5
+        },
+        "4": {
+          "answer": "A",
+          "points": 5
+        },
+        "5": {
+          "answer": "A",
+          "points": 5
+        },
+        "6": {
+          "answer": "B",
+          "points": 5
+        },
+        "7": {
+          "answer": "C",
+          "points": 5
+        },
+        "8": {
+          "answer": "A",
+          "points": 5
+        },
+        "9": {
+          "answer": "C",
+          "points": 5
+        },
+        "10": {
+          "answer": "C",
+          "points": 5
+        }
+      }
+    },
+    "short_answer_section": {
+      "type": "short_answer",
+      "answers": {
+        "1": {
+          "answer": "because it was late",
+          "points": 6
+        },
+        "2": {
+          "answer": "to the market",
+          "points": 6
+        },
+        "3": {
+          "answer": "a famous scientist",
+          "points": 6
+        },
+        "4": {
+          "answer": "to the market",
+          "points": 6
+        },
+        "5": {
+          "answer": "the red book",
+          "points": 6
+        }
+      }
+    },
+    "essay_section": {
+      "type": "essay",
+      "answers": {
+        "1": {
+          "prompt": "What is the moral value of the story?",
+          "points": 10
+        },
+        "2": {
+          "prompt": "What is the moral value of the story?",
+          "points": 10
+        }
+      }
+    }
+  }
+}

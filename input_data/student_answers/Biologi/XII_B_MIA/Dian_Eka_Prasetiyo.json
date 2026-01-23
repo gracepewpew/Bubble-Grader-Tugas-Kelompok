@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Dian Eka Prasetiyo",
+    "class": "XII B MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "C",
+      "3": "B",
+      "4": "A",
+      "5": "B",
+      "6": "A",
+      "7": "A",
+      "8": "B",
+      "9": "C",
+      "10": "A"
+    },
+    "short_answer_section": {
+      "1": "jawaban ini salah",
+      "2": "sesuai dengan buku teks",
+      "3": "jawaban ini benar",
+      "4": "mungkin ini jawabannya",
+      "5": "sesuai dengan buku teks"
+    },
+    "essay_section": {
+      "1": "Menurut pendapat saya, karakter utama menunjukkan keberanian.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

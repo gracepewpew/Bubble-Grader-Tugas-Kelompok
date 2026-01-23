@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Hadi Pratama",
+    "class": "X C"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "B",
+      "2": "A",
+      "3": "D",
+      "4": "A",
+      "5": "A",
+      "6": "A",
+      "7": "B",
+      "8": "D",
+      "9": "C",
+      "10": "D"
+    },
+    "short_answer_section": {
+      "1": "jawaban ini salah",
+      "2": "jawaban ini salah",
+      "3": "jawaban ini salah",
+      "4": "mungkin ini jawabannya",
+      "5": "sesuai dengan buku teks"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}

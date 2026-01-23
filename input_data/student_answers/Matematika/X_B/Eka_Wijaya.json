@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Eka Wijaya",
+    "class": "X B"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "A",
+      "3": "D",
+      "4": "B",
+      "5": "D",
+      "6": "C",
+      "7": "D",
+      "8": "C",
+      "9": "A",
+      "10": "C"
+    },
+    "short_answer_section": {
+      "1": "mungkin ini jawabannya",
+      "2": "jawaban ini salah",
+      "3": "sesuai dengan buku teks",
+      "4": "jawaban ini benar",
+      "5": "jawaban ini salah"
+    },
+    "essay_section": {
+      "1": "Menurut pendapat saya, karakter utama menunjukkan keberanian.",
+      "2": "Saya setuju dengan pernyataan tersebut karena data mendukung."
+    }
+  }
+}

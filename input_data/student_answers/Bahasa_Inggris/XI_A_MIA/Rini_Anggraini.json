@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Rini Anggraini",
+    "class": "XI A MIA"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "C",
+      "2": "D",
+      "3": "D",
+      "4": "A",
+      "5": "A",
+      "6": "D",
+      "7": "D",
+      "8": "D",
+      "9": "A",
+      "10": "B"
+    },
+    "short_answer_section": {
+      "1": "sesuai dengan buku teks",
+      "2": "jawaban ini salah",
+      "3": "mungkin ini jawabannya",
+      "4": "saya tidak tahu",
+      "5": "sesuai dengan buku teks"
+    },
+    "essay_section": {
+      "1": "Pesan moral dari cerita ini adalah pentingnya persahabatan.",
+      "2": "Saya setuju dengan pernyataan tersebut karena data mendukung."
+    }
+  }
+}

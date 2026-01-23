@@ -1,0 +1,31 @@
+{
+  "student_info": {
+    "name": "Indah Cahyani",
+    "class": "X D"
+  },
+  "answers": {
+    "mcq_section": {
+      "1": "D",
+      "2": "B",
+      "3": "A",
+      "4": "A",
+      "5": "A",
+      "6": "A",
+      "7": "C",
+      "8": "B",
+      "9": "C",
+      "10": "A"
+    },
+    "short_answer_section": {
+      "1": "mungkin ini jawabannya",
+      "2": "mungkin ini jawabannya",
+      "3": "sesuai dengan buku teks",
+      "4": "saya tidak tahu",
+      "5": "saya tidak tahu"
+    },
+    "essay_section": {
+      "1": "Saya setuju dengan pernyataan tersebut karena data mendukung.",
+      "2": "Menurut pendapat saya, karakter utama menunjukkan keberanian."
+    }
+  }
+}
